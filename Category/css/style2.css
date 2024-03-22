@@ -1,0 +1,327 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    }
+    .cain img{
+    border-radius:7%;
+    }
+    .aain{
+    height : 60px;
+    width  : 100%;
+    position: fixed;
+    background: black;
+    border: solid 2px black;
+    font-size:40px;
+    text-align:center;
+    font-weight:bold;
+    color: white;
+    top: 0;
+    left: 0;
+    }
+    .cain{
+    height:2014%;
+    width:100%;
+    background-color: black;
+    border: solid 2px black;
+    left: 0;
+    right: 0;
+    }
+    .dain{
+    height:700px;
+    width:20%;
+    float: left;
+    padding-left:70px;
+    padding-top: 30px;
+    background-color: black;
+    
+    
+    }
+    .eain{
+    height:1100px;
+    width:20%;
+    float: left;
+    padding-left:60px;
+    padding-top: 365px;
+    background-color: black;
+    
+    }
+    .fain{
+    height:400px;
+    width:20%;
+    float: left;
+    padding-left:70px;
+    padding-top: 30px;
+    background-color: black;
+    }
+    
+    .gain{
+    height:400px;
+    width:20%;
+    float: left;
+    padding-left:70px;
+    padding-top: 30px;
+    background-color: black;
+    }
+    
+    @media  only screen and  (max-width: 588px) {
+    .dain {
+        width:40%;
+        height:700px;
+       margin-left:70px;
+    }
+     .eain{
+        width:40%;
+    height:700px;
+      margin-left:40px;
+    }
+    .fain{
+    visibility:collapse;
+    }
+    .gain{
+    visibility:collapse;
+    }
+    .idiot{
+      display:inline;
+   }
+   .cain{
+      height:620%;
+    }
+   }
+    @media  only screen and  (max-width: 670px) {
+      
+       .dain{
+        height:450px;
+        width:20%;
+        background-color: black;
+    padding-left:20px;
+    padding-right:-50px;
+  
+       }
+       .eain{
+        height:450px;
+        width: 20%;
+        background-color:black ;
+        padding-left:0px;
+        padding-top:300px;
+        
+       }
+      .fain{
+        height:450px;
+        width: 20%;
+        background-color: black;
+        padding-right:70px;
+        
+       }
+      .gain {
+        visibility: collapse;
+    }
+    
+         .eain img{
+         width: 0%;
+         height:220px;
+       background-color: black;
+    }
+      .fain img{
+         width: 100px;
+           height:220px;
+    }
+     .dain img{
+         width: 70px;
+           height:220px;
+         background-color: black;
+    }
+    .cain{
+      height:1100%;
+    }
+    
+    }
+    
+    @media  only screen and  (max-width: 768px) {
+       .dain{
+        height:450px;
+        width:40%;
+        background-color: black;
+    padding-right: 0px;
+       }
+         .eain img{
+         width: 130%;
+       background-color: black;
+    }
+      .fain img{
+         width: 130%;
+    }
+     .dain img{
+         width: 130%;
+         background-color: black;
+    }
+    .cain{
+      height:1303%;
+    }
+       .eain{
+        height:450px;
+        width: 40%;
+        background-color:black ;
+        padding-left: 50px;
+    
+       }
+      .fain{
+        height:450px;
+        width: 30%;
+        background-color: black;
+        padding-left:40px;
+       }
+      .gain {
+        visibility: collapse;
+    }
+    
+    }
+    
+    @media  only screen and  (max-width: 900px) {
+       .dain{
+        height:450px;
+        width:40%;
+        background-color: black;
+    padding-right: 50px;
+       }
+         .eain img{
+         width: 130%;
+        padding-left:0px;
+       background-color: black;
+    }
+      .fain img{
+         width: 130%;
+    }
+     .dain img{
+         width: 130%;
+         background-color: black;
+    }
+    .cain{
+      min-height:100px;
+    }
+    .idiot {
+      display:none;
+    }
+       .eain{
+        height:450px;
+        width: 40%;
+        background-color:black ;
+        padding-right: 50px;
+    
+       }
+      .fain{
+        height:450px;
+        width: 30%;
+        background-color: black;
+       }
+      .gain {
+        visibility: collapse;
+    }
+    .idiot{
+      display:none;
+   }
+   }
+    @media only screen and (max-width: 1220px){
+       .dain{
+        height:300px;
+        width: 17%;
+        background-color: black;
+       
+       }
+       .eain{
+        height:300px;
+        width: 17%;
+        background-color: black;
+       }
+     .fain{
+        height:300px;
+        width: 17%;
+        background-color: black;
+       }
+       .gain{
+        height:300px;
+        width: 17%;
+        background-color: black;
+       }
+       .idiot{
+         display:none;
+      }
+      .cain{
+         height:1300%;
+       }
+   }
+    
+    
+    
+    
+    @media (max-device-width: 499px){
+     .fain {
+        visibility: collapse;
+    }
+     .gain {
+        visibility: collapse;
+    }
+    .dain{
+        width:40%;
+        height:700px;
+    }
+     .eain{
+        width:40%;
+    height:700px;
+    }
+    .idiot{
+      display:inline;
+   }
+   .cain{
+      height: 1758%;
+    }
+    }
+    @media  (min-width: 1220px){
+       .dain{
+        height:300px;
+        width: 18%;
+        background-color: black;
+       }
+      .idiot{
+         display:none;
+      }
+     .dain img{
+       height:400px;
+      
+    }
+    .eain img{
+       height:400px;
+     
+    }
+    
+    .fain img{
+       height:400px;
+     
+    }
+    .gain img{
+       height:400px;
+     
+    }
+    
+        .eain{
+        height:300px;
+        width: 18%;
+        background-color: black;
+       }
+     .fain{
+        height:300px;
+        width: 18%;
+        background-color: black;
+        margin-left:30px;
+       }
+       .gain{
+        height:300px;
+        width: 18%;
+        background-color: black;
+        margin-left:30px;
+       }
+       .cain{
+         height: 1662%;
+       }
+    }
+    
+    

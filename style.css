@@ -1,0 +1,772 @@
+
+*{
+padding: 0px;
+}
+.aain{
+height : 80px;
+width  : 100%;
+background: #F5F5F5;
+border:solid 3px #c0c0c0;
+padding: 0px;
+padding-bottom:5px;
+padding-top:  2px;
+font-size:70;
+text-align:center;
+font-weight:bold;
+color:#838996;
+}
+.bain{
+height:320px;
+width: 100%;
+border: solid 3px #c0c0c0;
+border-bottom: 0px;
+background-image: url("back.jpg");
+}
+.cain{
+height:240px;
+width: 20%;
+float: left;
+left: 50px;
+transform: translate(12px,-2px);
+position: relative;
+animation: cain 5s linear;
+transition: 2s;
+}
+@keyframes cain{
+    25%{
+      top: -230px;
+        
+    }
+    100%{
+      top: 0px;
+         
+    }
+}
+.dain{
+height:240px;
+width: 20%;
+left: 20px;
+float: left;
+transform: translate(8px,-2px);
+position: relative;
+animation: dain 5s linear;
+}
+@keyframes dain{
+    25%{
+      top: -230px;
+        
+    }
+    100%{
+      top: 0px;
+         
+    }
+}
+
+.eain{
+height:240px;
+width: 20%;
+float: left;
+left: 20px;
+transform: translate(3px,-2px);
+position: relative;
+animation: eain 5s linear;
+}
+@keyframes eain{
+    25%{
+      top: -230px;
+        
+    }
+    100%{
+      top: 0px;
+         
+    }
+}
+
+.fain{
+height:240px;
+width: 20%;
+float: left;
+transform: translate(0px,-2px);
+position: relative;
+animation: fain 5s linear;
+}
+@keyframes fain{
+    25%{
+      top: -230px;
+        
+    }
+    100%{
+      top: 0px;
+         
+    }
+}
+
+.gain{
+height:240px;
+width: 20%;
+float: left;
+transform: translate(-10px,-2px);
+position: relative;
+animation: gain 5s linear;
+}
+@keyframes gain{
+    25%{
+      top: -230px;
+        
+    }
+    100%{
+      top: 0px;
+         
+    }
+}
+
+.hain{
+height:140px;
+width: 100%;
+background-image: url(back.jpg);
+border: solid 3px #c0c0c0;
+border-bottom: 0px;
+border-top: 0px;
+}
+.iain{
+height:250px;
+width: 100%;
+border: solid 3px #c0c0c0;
+}
+.jain{
+height:250px;
+width: 33%;
+float: left;
+border: solid 2px #c0c0c0;
+position: relative;
+}
+.jin{
+width: 100%; 
+height: 40px;
+font-size: 30px;
+text-align: center;
+background-color:
+rgba(0,0,0,0.6); 
+color:white;
+position: absolute;
+Left: 0px;
+bottom: -38px; 
+animation: jin 3s linear;
+}
+@keyframes jin{
+     0%{
+visibility: visible;
+      bottom: 0px;
+        }
+ 25%{
+visibility: visible;
+      bottom: -10px;
+        }
+ 50%{
+visibility: visible;
+      bottom: -20px;
+        }
+ 75%{
+visibility: visible;
+      bottom: -30px;
+        }
+ 100%{
+visibility: visible;
+      bottom: -38px;
+        }
+}
+
+.kain{
+height:250px;
+width: 33%;
+float: left;
+border: solid 2px #c0c0c0;
+}
+.kin{
+width: 100%; 
+height: 40px;
+font-size: 30px;
+text-align: center;
+background-color:
+rgba(0,0,0,0.6); 
+color:white;
+Left: 0px;
+bottom: 0px; 
+animation: kin 3s linear;
+position: relative;
+visibility: visible;
+}
+@keyframes kin{
+     0%{
+visibility: visible;
+      bottom: 40px;
+        }
+ 25%{
+visibility: visible;
+      bottom: 30px;
+        }
+ 50%{
+visibility: visible;
+      bottom: 20px;
+        }
+ 75%{
+visibility: visible;
+      bottom: 10px;
+        }
+ 100%{
+visibility: visible;
+      bottom: 0px;
+        }
+}
+.lain{
+height:250px;
+width: 33.3%;
+float: left;
+border: solid 2px #c0c0c0;
+}
+.lain img{
+object-fit: cover;
+}
+@media (max-width: 1600px){
+    .lain{
+      width: 33.35%;
+  
+    }
+}
+
+@media (max-width: 1512px){
+  .lain{
+      width: 33.33%;
+    }
+}
+@media (max-width: 1465px){
+  .lain{
+      width: 33.31%;
+    }
+}
+@media (max-width: 1420px){
+  .lain{
+      width: 33.29%;
+    }
+}
+@media  (max-width: 1390px){
+    .lain{
+     width: 33.27%;
+   }
+    
+}
+
+@media  (max-width: 1350px){
+  .lain{
+   width: 33.256%;
+ }
+}
+@media  (max-width: 1320px){
+  .lain{
+   width: 33.238%;
+ }
+}
+@media  (max-width: 1290px){
+  .lain{
+   width: 33.22%;
+ }
+}
+@media  (max-width: 1260px){
+    .lain{
+     width: 33.20%;
+   }
+}
+
+@media  (max-width: 1240px){
+    .lain{
+     width: 33.19%;
+   }
+   .cain{
+    width: 17%;
+    height:100px;
+    }
+    .aain{
+     height : 60px;
+    width  : 100%;
+    font-size: 45;
+   }
+    .aain img{
+       height:50px;
+       }
+      .aain table{
+       height:64px;
+       }
+    .bain{
+       height:260px;
+      }  
+     .cain img{
+       height:200px;
+       width:150px;
+       left: -200px;
+      }  
+      .dain img{
+       height:130px;
+       width:150px;
+      }  
+      .eain img{
+       height:200px;
+       width:150px;
+      }  
+      .fain img{
+       height:130px;
+       width:150px;
+      }  
+      .gain img{
+       height:200px;
+       width:150px;
+       transform: translate(20px,-2px);
+      }  
+      .iain{
+       height: 170px;
+      } 
+      .iain img{
+        height: 170px;
+       }  
+       .jain{
+       height: 170px;
+      } 
+      .kain{
+       height: 170px;
+      } 
+      .lain{
+        height: 170px;
+       } 
+  
+       .hain{
+       height: 125px;
+      }   
+}
+@media (max-width: 1220px){
+  .lain{
+   width: 33.18%;
+ }   
+}
+@media (max-width: 1200px){
+  .lain{
+   width: 33.16%;
+ }   
+}
+@media (max-width: 1185px){
+
+.lain{
+  width: 33.14%;
+}
+   
+}
+@media (max-width: 1150px){
+  .lain{
+   width: 33.12%;
+ }
+   
+}
+@media (max-width: 1125px){
+  .lain{
+     width: 33.09%;
+   }
+   .cain{
+     left:0px;
+    }
+    .dain{
+     left:10px;
+    }
+    .eain{
+     left:10px;
+    }
+     .fain{
+     left:10px;
+    }
+     .gain{
+     right:10px;
+    }
+}
+@media (max-width: 1085px){
+    .lain{
+     width: 33.06%;
+   }
+   
+}
+@media (max-width: 1055px){
+  .lain{
+   width: 33.04%;
+ }
+   
+}
+@media only screen and (max-width: 1030px){
+    .lain{
+     width:33.02%;
+   }
+}
+@media (max-width: 1010px){
+  .lain{
+   width: 33%;
+ }
+   
+}
+@media (max-width: 993px){
+    .lain{
+     width: 32.98%;
+   }
+     
+}
+@media (max-width: 980px){
+  .lain{
+   width: 32.96%;
+ }
+   
+}
+@media (max-width: 965px){
+  .lain{
+   width: 32.93%;
+ }
+   
+}
+@media (max-width: 948px){
+  .lain{
+   width: 32.92%;
+ }
+   
+}
+@media (max-width: 920px){
+  .lain{
+   width: 32.9%;
+ }
+   
+}
+
+@media  (max-width: 910px){
+   .lain{
+    width: 32.88%;
+   }
+}
+@media (max-width: 895px){
+  .lain{
+   width:32.86%;
+   }
+
+}
+
+@media (max-width: 873px){
+  .lain{
+   width:32.83%;
+   }
+
+}
+@media (max-width: 852px){
+  .lain{
+   width:32.8%;
+   }
+
+}
+@media (max-width: 835px){
+  .lain{
+   width:32.77%;
+   }
+
+}
+@media (max-width: 815px){
+  .lain{
+   width:32.73%;
+   }
+
+}
+@media (max-width: 790px){
+    .lain{
+     width: 32.7%;
+   }
+}
+
+@media (max-width: 770px){
+  .lain{
+   width:32.66%;
+   }
+
+}
+@media (max-width: 750px){
+  .lain{
+   width:32.62%;
+   }
+   
+}
+
+@media (max-width: 735px){
+  .lain{
+   width:32.58%;
+   }
+
+}
+@media (max-width: 708px){
+    .lain{
+     width:32.55%;
+     }
+
+}
+@media (max-width: 694px){
+    .lain{
+     width:32.5%;
+     }
+     .cain img{
+      height:170px;
+      width:90px;
+      transform: translate(-7px,-2px);
+     }  
+     .dain img{
+      height:120px;
+      width:90px;
+      transform: translate(0px,-2px);
+     }  
+     .eain img{
+      height:170px;
+      width:90px;
+      transform: translate(7px,-2px);
+     }  
+     .fain img{
+      height:120px;
+      width:90px;
+      transform: translate(12px,-2px);
+     }  
+     .gain img{
+      height:170px;
+      width:90px;
+      transform: translate(24px,-2px);
+     }  
+}
+@media (max-width: 680px){
+    .lain{
+     width:32.46%;
+     }
+     .aain{
+      height : 40px;
+     width  : 100%;
+     font-size: 30;
+    }
+     .aain img{
+        height:30px;
+        width:40px;
+        }
+       .aain table{
+        height:45px; 
+        width:5%;
+        }
+     .bain{
+        height:240px;
+       }  
+      .cain img{
+        height:170px;
+        width:110px;
+        
+       }  
+       .dain img{
+        height:120px;
+        width:110px;
+        transform: translate(10px,-2px);
+       }  
+       .eain img{
+        height:170px;
+        width:110px;
+        transform: translate(20px,-2px);
+       }  
+       .fain img{
+        height:120px;
+        width:110px;
+        transform: translate(20px,-2px);
+       }  
+       .gain img{
+        height:170px;
+        width:110px;
+        transform: translate(40px,-2px);
+       }  
+       .iain{
+        height: 120px;
+       } 
+       .iain img{
+         height: 120px;
+        }  
+        .jain{
+        height: 120px;
+       } 
+       .kain{
+        height: 120px;
+       } 
+       .lain{
+        height: 120px;
+       } 
+        .hain{
+        height: 80px;
+       }   
+        .jin{
+        height:29px;
+        font-size: 23px;
+        bottom:-29px;
+        }
+         .kin{
+        height:29px;
+        font-size:23px;
+        }
+        @keyframes jin{
+    0%{
+  visibility: visible;
+     bottom: 20px;
+       }
+  25%{
+  visibility: visible;
+     bottom: 0px;
+       }
+  50%{
+  visibility: visible;
+     bottom: -10px;
+       }
+  75%{
+  visibility: visible;
+     bottom: -20px;
+       }
+  100%{
+  visibility: visible;
+     bottom: -29px;
+       }
+  }
+
+}
+@media (max-width: 656px){
+  .lain{
+   width:32.4%;
+   }
+
+}
+@media (max-width: 636px){
+  .lain{
+   width:32.35%;
+   }
+
+}
+@media (max-width: 620px){
+  .lain{
+   width:32.3%;
+   }
+
+}
+@media (max-width: 600px){
+  .lain{
+   width:32.25%;
+   }
+
+}
+@media (max-width: 580px){
+    .lain{
+     width:32.2%;
+     }
+
+}
+@media (max-width: 565px){
+    .lain{
+     width:32.17%;
+     }
+
+}
+@media (max-width: 558px){
+    .lain{
+     width:32.1%;
+     }
+
+}
+@media (max-width: 540px){
+    .lain{
+     width:32.04%;
+     }
+}
+@media (max-width: 520px){
+    .lain{
+     width:31.98%;
+     }
+}
+@media (max-width: 513px){
+    .lain{
+     width:31.7%;
+     }
+}
+
+  @media only screen and (max-device-width: 510px){
+      .aain{
+      height : 80px;
+     width  : 100%;
+     font-size:70;
+    }
+     .aain img{
+        height:70px;
+        width:70px;
+        }
+       .aain table{
+        height:84px; 
+        width:40px;
+        }
+     .bain{
+        height:320px;
+       }  
+      .cain img{
+        height:240px;
+        width:190px ;
+        
+       }  
+       .dain img{
+        height:170px;
+        width:190px;
+        transform: translate(10px,-2px);
+       }  
+       .eain img{
+        height:240px;
+        width:190px;
+        transform: translate(20px,-2px);
+       }  
+       .fain img{
+        height:170px ;
+        width:190px;
+        transform: translate(20px,-2px);
+       }  
+       .gain img{
+        height:240px;
+        width:190px;
+        transform: translate(40px,-2px);
+       }  
+       .iain{
+        height: 250px;
+       } 
+       
+       .jain {
+         width: 32.9%;
+          height: 250px;
+        }  
+        .jain img{
+        height:250px;
+       }
+       .kain img{
+        height:250px;
+       }
+       .lain img{
+        height:250px;
+       }
+        .kain {
+         width: 32.95%;
+          height: 250px;
+        }  
+        .lain {
+         width: 33.15%;
+         height: 250px;
+        }  
+        .hain{
+        height: 140px;
+       }   
+        .jin{
+        height:40px;
+        font-size: 30px;
+        bottom:-40px;
+        }
+         .kin{
+        height:40px;
+        font-size:30px;
+        }
+        
+}
